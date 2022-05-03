@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("img/texturacuero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+button {
+  height: 40px;
+  width: 265px;
+  padding: 10px;
+  background: #2e0a02;
+  color: coral;
+}
+.container {
+  width: 1200px;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+/* navigation */
+.nav-main {
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+}
+.nav-brand {
+  height: 100px;
+  padding: 20px 0;
+}
+/* nav left*/
+.nav-main ul {
+  display: flex;
+}
+.nav-main ul li {
+  padding: 20px;
+}
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+/* header */
+.fundamentos {
+  padding: 30px 0px;
+  width: 90%;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-end;
+}
+.titulo {
+  font-family: "oswald", sans-serif;
+  padding: 0px 430px;
+  background: wheat;
+  color: black;
+  font-weight: bold;
+}
+.palabra {
+  color: black;
+  font-weight: bold;
+  padding: 10px 0 15px 25px;
+  font-size: 20px;
+  list-style: none;
+  line-height: 2em;
+}
+.parrafo {
+  font-family: "oswald", sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: bold;
+  color: black;
+}
+/*pantallas */
+.herramientas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 10px;
+  margin: 120px;
+}
+.herramientas img {
+  width: 90%;
+}
+.bibliografia {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin: 20px;
+  /* border: black solid;   */
+}
+.bibliografia img {
+  width: 80%;
+  padding: 1px 0;
+  height: 320px;
+}
+.fundamentos {
+  padding: 5px;
+  margin: 20px;
+}
+.text-fundamentos {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 1px 30px 0 10px;
+  height: 500px;
+  width: 100%;
+  float: left;
+}
+.text-fundamentos li {
+  font-weight: bold;
+  color: black;
+  padding: 20px;
+  list-style: none;
+}
+/*pantalla modal de herramientas */
+.modal_container {
+  visibility: hidden;
+  width: 1200px;
+  padding-left: 55px;
+  padding-top: 20px;
+}
+.textherra {
+  position: absolute;
+  top: 229px;
+  left: 15px;
+  right: 120px;
+  border: solid black;
+  height: 380px;
+  width: 300px;
+  padding: 10px 20px 10px 30px;
+  margin-left: 140px;
+  background: white;
+  color: black;
+}
+.textherra-box {
+}
+#abmata {
+  padding: 10px 20px 0 0;
+}
+#cierramata {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+}
+.modal_containerp {
+  visibility: hidden;
+  width: 1200px;
+  padding-left: -10px;
+  padding-top: 10px;
+}
+.textherra1 {
+  position: absolute;
+  top: 229px;
+  left: 330px;
+  right: 110px;
+  border: solid black;
+  height: 380px; /*alto*/
+  width: 300px; /* ancho */
+  padding: 10px 20px 10px 30px;
+  margin-left: 140px;
+  background: white;
+  color: black;
+}
+.textherra-box1 {
+}
+.abplana {
+}
+#cierraplana {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+}
+.modal_containerr {
+  visibility: hidden;
+  width: 1200px;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+.textherra2 {
+  position: absolute;
+  top: 229px;
+  left: 645px;
+  right: 120px;
+  border: solid black;
+  height: 380px; /*alto*/
+  width: 300px; /* ancho */
+  padding: 10px 20px 10px 30px;
+  margin-left: 140px;
+  background: white;
+  color: black;
+}
+.textherra-box2 {
+}
+.abredo {
+  padding: 10px 20px 0 0;
+}
+#cierraredo {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+}
+.modal_containers {
+  visibility: hidden;
+  width: 1200px;
+  padding-left: 55px;
+  padding-top: 20px;
+}
+.textherra3 {
+  position: absolute;
+  top: 229px;
+  left: 15px;
+  right: 120px;
+  border: solid black;
+  height: 380px;
+  width: 300px;
+  padding: 10px 20px 10px 30px;
+  margin-left: 140px;
+  background: white;
+  color: black;
+}
+.textherra-box3 {
+}
+.absaca {
+}
+#cierrasaca {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+}
+.modal_containerc {
+  visibility: hidden;
+  width: 1200px;
+  padding-left: 55px;
+  padding-top: 20px;
+}
+.textherra4 {
+  position: absolute;
+  top: 229px;
+  left: 330px;
+  right: 120px;
+  border: solid black;
+  height: 380px;
+  width: 300px;
+  padding: 10px 20px 10px 30px;
+  margin-left: 140px;
+  background: white;
+  color: black;
+}
+.textherra-box4 {
+}
+.absaca {
+}
+#cierracutt {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+}
+
+.modal_containerl {
+  visibility: hidden;
+  width: 1200px;
+  padding-left: 55px;
+  padding-top: 20px;
+}
+.textherra5 {
+  position: absolute;
+  top: 229px;
+  left: 15px;
+  right: 120px;
+  border: solid black;
+  height: 380px;
+  width: 300px;
+  padding: 10px 20px 10px 30px;
+  margin-left: 140px;
+  background: white;
+  color: black;
+}
+.textherra-box5 {
+}
+.ablise {
+  padding: 10px 20px 0 0;
+}
+#cierralise {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+}

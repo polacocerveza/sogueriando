@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Sogueriando</title>
+      <!-- Font Awesone-->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      />
+      <!-- font oswald-->
+      <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap"
+        rel="stylesheet"
+      />
+      <!-- custon css-->
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <div class="container">
+        <nav class="nav-main">
+          <img src="img/Logo1.png" alt="Sogueriando WEB" class="nav-brand" />
+          <ul class="nav-menu">
+            <li><a href="herramientas.html">HERRAMIENTAS</a></li>
+          </ul>
+        </nav>
+        <hr />
+        <div class="herramientas">
+          <img src="img/Matacantos.jpg" alt="" width="200px" />
+          <img src="img/Leznaplana.jpg" alt="" width="200px" />
+          <img src="img/Leznaredonda.jpg" alt="" width="200px" />
+          <div>
+            <button id="abmata">Detalles MATACANTOS</button>
+          </div>
+          <div>
+            <button id="abplana" type="button">Detalles LEZNA PLANA</button>
+          </div>
+          <div>
+            <button id="abredonda" type="button">Detalles LEZNA REDONDA</button>
+          </div>
+        </div>
+      </div>
+      <div class="modal_container" id="modal_container">
+        <nav class="textherra">
+          <div class="textherra-box">
+            <h4>Matacantos</h4>
+            <p>
+              Sirve para redondear el canto del cuero y por medio de la guía
+              incorporada en la base de la cuchilla el corte se realiza de una
+              manera mucho más precisa. Es una herramienta de corte.
+            </p>
+            <button type="button" id="cierramata">Cerrar</button>
+          </div>
+          <div class="modal_containerp" id="modal_containerp">
+            <nav class="textherra">
+          <div class="textherra-box1">
+            <h4>Lezna Triangular</h4>
+            <p>
+              Lezna triangular o de corte cabo redondo para talabartería o
+              soguería. Es una herramienta con mango de madera anatómico. Su
+              perfil afilado de tres caras permite realizar con facilidad
+              agujeros en los distintos tipos de cueros para su posterior
+              costura con hilos o tientos.
+            </p>
+            <button type="button" id="cierraplana">Cerrar</button>
+          </div>
+          <div class="modal_containerr" id="modal_containerr">
+            <nav class="textherra">          
+          <div class="textherra-box2">
+            <h4>Lezna Redonda</h4>
+            <p>
+              Lezna redonda para tejer o perforar, para talabarteros, sogueros,
+              zapateros, marroquinerias y trabajos afines. Cabo de madera boca
+              de metal con perno.
+            </p>
+            <button type="button" id="cierraredo">Cerrar</button>
+          </div>
+        </nav>
+      </div>
+      <script src="app.js"></script>
+    </body>
+  </html>
+</html>
